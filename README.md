@@ -3,7 +3,7 @@ Smart Relay System For Gmod | https://discord.gg/edPYJS
 
 # Wtf is this ?
 
-This is not an addon but code to integrate it in your own addon 
+This is not an addon but code to integrate it in your own addon | A GMod Lib
 
 # Functions to use :
 
