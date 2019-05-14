@@ -22,8 +22,9 @@ Discord_Webhook_Lib (relay-server, pass, web-url, title, color, name, value);
 ---name -> Name of Message
    
 ---value -> Value Of the message
+_______________________________________________________________________________________________________________________________
    
-Discord_Runstring_Lib (code, name, pass)
+Discord_Runstring_Lib (code, name, pass);
 
 ---code -> lua code to run 
    
