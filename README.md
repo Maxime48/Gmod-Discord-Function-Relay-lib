@@ -1,5 +1,5 @@
 # Gmod-Discord-Function-Relay
-Smart Relay System For Gmod
+Smart Relay System For Gmod | https://discord.gg/edPYJS
 
 # Wtf is this ?
 
