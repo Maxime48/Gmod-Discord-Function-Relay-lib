@@ -19,17 +19,29 @@ discord_webhook_lib.ModuleList = {
     "main_lib/function_runyourstring.lua"
 }
 
-local function function ModuleLoader()
+local function ErrorModule(Error_Code)
+    print("Checking the error")
+    if code == 1 then
+        print("Result : Setting not avtivated")
+    end   
+end
+
+
+local function ModuleLoader()
   print("Module loader started")
     for k, v in pairs(discord_webhook_lib.ModuleList) do        
        if v == "main_lib/function_runyourstring.lua" then
-         if discord_webhook_lib.yourstring_pass_activate then
-           include(v)
-            print("| Loading: "..v)
-          else
-           include(v)
-            print("| Loading: "..v)
-         end
+          if discord_webhook_lib.yourstring_pass_activate then
+            include(v)
+             print("| Loading: "..v)
+           else
+             print("| Not Loading: "..v)
+                 code = 1
+                  ErrorModule(code);
+          end
+       else       
+         include(v)
+          print("| Loading: "..v)               
        end
     end
 end
