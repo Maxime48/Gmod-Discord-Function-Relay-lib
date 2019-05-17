@@ -1,3 +1,4 @@
+https://www.paypal.me/maxime48
 # Gmod-Discord-Function-Relay
 Smart Relay System For Gmod | https://discord.gg/N2WT3N8
 
