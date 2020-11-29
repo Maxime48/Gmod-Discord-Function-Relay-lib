@@ -22,7 +22,7 @@ discord_webhook_lib.ModuleList = {
 local function ErrorModule(Error_Code)
     print("Checking the error")
     if code == 1 then
-        print("Result : Setting not avtivated")
+        print("Result : Setting not activated")
     end   
 end
 
