@@ -1,6 +1,6 @@
-https://www.paypal.me/maxime48
+
 # Gmod-Discord-Function-Relay
-Smart Relay System For Gmod | https://discord.gg/QzUX4WF
+Smart Relay System For Gmod
 
 # Wtf is this ?
 
